@@ -1,5 +1,9 @@
 import { GoogleSpreadsheet } from 'google-spreadsheet';
 
+export default function handler(req, res) {
+  res.status(200).send("OK");
+}
+
 export default async function handler(req, res) {
   res.status(200).send("OK"); // HEMEN cevapla
 
